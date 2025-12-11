@@ -1,0 +1,37 @@
+.dashboard {
+  margin-top: 20px;
+}
+
+.question-card {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+
+.question-card.escalated {
+  border-color: red;
+  background-color: #ffecec;
+}
+
+.question-card.answered {
+  background-color: #e8ffe8;
+  color: #555;
+}
+
+.time-status {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.admin-buttons {
+  margin-top: 6px;
+}
+
+.admin-buttons button {
+  margin-right: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}

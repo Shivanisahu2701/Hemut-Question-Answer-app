@@ -1,0 +1,21 @@
+.question-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question-form textarea {
+  resize: none;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+.question-form button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,33 @@
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-box {
+  width: 320px;
+}
+
+.logout-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.guest-logout {
+  margin-left: 0;
+  margin-top: 20px;
+}
